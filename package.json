@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oktoala/web-kkn.git"
+    "url": "git+https://github.com/padukuhanbanjeng/web-kkn.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oktoala/web-kkn/issues"
+    "url": "https://github.com/padukuhanbanjeng/web-kkn/issues"
   },
-  "homepage": "https://github.com/oktoala/web-kkn#readme"
+  "homepage": "https://github.com/padukuhanbanjeng/web-kkn#readme"
 }
