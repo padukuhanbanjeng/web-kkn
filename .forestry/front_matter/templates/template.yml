@@ -44,6 +44,3 @@ fields:
 - type: text
   name: description
   label: Deskripsi Singkat
-pages:
-- content/blog/gotong-royong-akhir-bulan.md
-- content/blog/les-bahasa-inggris.md
