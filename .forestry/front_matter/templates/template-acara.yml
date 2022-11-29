@@ -44,5 +44,3 @@ fields:
 - type: text
   name: location
   label: Lokasi Acara
-pages:
-- content/acara/bakti-sosial-april-2022.md
