@@ -1,0 +1,51 @@
+---
+label: Template Blog
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Judul Artikel
+- type: datetime
+  name: date
+  label: Tanggal Rilis
+  default: now
+- type: file
+  name: bg_image
+  label: Gambar Latar Belakang
+  config:
+    maxSize: 
+  default: "/banner/banner-samarinda-river.jpg"
+- type: text
+  name: author
+  label: Penulis
+  default: Admin
+- type: list
+  name: categories
+  label: Kategori
+  config:
+    use_select: false
+- type: list
+  name: tags
+  label: Tags
+  config:
+    use_select: false
+- type: text
+  name: type
+  label: Tipe
+  default: post
+  hidden: true
+  config:
+    required: false
+- type: file
+  name: image
+  label: Thumbnail
+  default: "/splash.png"
+- type: text
+  name: description
+  label: Deskripsi Singkat
+pages:
+- content/blog/gotong-royong-akhir-bulan.md
+- content/blog/les-bahasa-inggris.md
+- content/blog/pembagian-masker.md
+- content/blog/pembagian-totebag.md

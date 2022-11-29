@@ -1,0 +1,35 @@
+---
+label: Template Staff
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Nama Staff
+- type: file
+  name: bg_image
+  label: Gambar Latar Belakang
+  default: "/banner/banner-samarinda-river.jpg"
+- type: textarea
+  name: description
+  label: Deskripsi
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+  default: Deskripsi
+- type: file
+  name: image
+  label: Foto Profil
+  default: "/splash.png"
+- type: text
+  name: course
+  label: Jabatan / Peran
+- type: textarea
+  name: bio
+  label: Biografi
+  default: ''
+- type: list
+  name: interest
+  label: Hobi / Keahlian
+pages:
+- content/staff/pak-rt.md

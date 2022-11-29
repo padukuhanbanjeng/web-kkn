@@ -1,0 +1,16 @@
+<article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow" style="max-height: 503px; height: 100%;">
+  <img class="card-img-top rounded-0 img-cover" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" height="198">
+  <div class="card-body">
+    <!-- post meta -->
+    <ul class="list-inline mb-3">
+      <!-- post date -->
+      <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i> {{ .PublishDate.Format "02 Jan, 2006" }}</li>
+      <!-- author -->
+      <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <span
+        href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</span></li>
+    </ul>
+      <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <p class="card-text">{{ .Summary | truncate 100 }}</p>
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">Baca Lebih Lanjut</a>
+  </div>
+</article>

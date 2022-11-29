@@ -1,0 +1,15 @@
+---
+label: Template-Kontak
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: bg_image
+  label: bg_image
+- type: text
+  name: description
+  label: description
+pages:
+- content/contact/_index.md

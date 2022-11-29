@@ -1,0 +1,21 @@
+{
+  "name": "web-kkn",
+  "version": "1.0.0",
+  "description": "<h1 align=center>Educenter Hugo | <a target=\"_blank\" href=\"https://demo.gethugothemes.com/educenter\" rel=\"nofollow\">Demo</a> | <a  target=\"_blank\" href=\"https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Feducenter%2F\">Page Speed (86%)</a></h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hugo": "hugo server",
+    "backend": "npx netlify-cms-proxy-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktoala/web-kkn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oktoala/web-kkn/issues"
+  },
+  "homepage": "https://github.com/oktoala/web-kkn#readme"
+}

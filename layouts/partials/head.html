@@ -1,0 +1,57 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="google-site-verification" content="xc44nQiqA3haij7gLipDCyhJ2ujIVE6zJZ6Sm6fm6Yg" />
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  <link rel="canonical" href="{{ .Site.BaseURL }}"/>
+  {{ hugo.Generator }}
+  {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
+  {{ if .IsTranslated }}
+  {{ range .Page.AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ end }}
+
+  {{ "<!-- Favicon -->" | safeHTML }}
+  <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="{{ `icons/apple-touch-icon-57x57.png` | relURL }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="{{ `icons/apple-touch-icon-72x72.png` | relURL }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="{{ `icons/apple-touch-icon-60x60.png` | relURL }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ `icons/apple-touch-icon-120x120.png` | relURL }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="{{ `icons/apple-touch-icon-76x76.png` | relURL }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ `icons/apple-touch-icon-152x152.png` | relURL }}" />
+  <link rel="icon" type="image/png" href="{{ `icons/favicon-196x196.png` | relURL }}" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{ `icons/favicon-96x96.png` | relURL }}" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{ `icons/favicon-32x32.png` | relURL }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ `icons/favicon-16x16.png` | relURL }}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ `icons/favicon-128.png` | relURL }}" sizes="128x128" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage"          content="{{ `icons/mstile-144x144.png` | relURL }}" />
+  <meta name="msapplication-square70x70logo"    content="{{ `icons/mstile-70x70.png` | relURL }}" />
+  <meta name="msapplication-square150x150logo"  content="{{ `icons/mstile-150x150.png` | relURL }}" />
+  <meta name="msapplication-wide310x150logo"    content="{{ `icons/mstile-310x150.png` | relURL }}" />
+  <meta name="msapplication-square310x310logo"  content="{{ `icons/mstile-310x310.png` | relURL }}" />
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link }}">
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $sass := resources.Get "scss/main.scss" }}
+  {{ $style := $sass | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+  <style>
+    .img-cover {
+      object-fit: cover;
+    }
+  </style>
+  <script src="/index.js" defer></script>
+
+</head>

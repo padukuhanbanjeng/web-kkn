@@ -1,0 +1,125 @@
+---
+baseURL: rt32bengkuring.com
+title: Bengkuring RT 32
+paginate: "6"
+summaryLength: "10"
+disqusShortname: rt32bengkuring
+disableLanguages: []
+enableRobotsTXT: true
+params:
+  instagrams:
+    appId: ''
+    clientToken: ''
+  plugins:
+    css:
+    - link: "/plugins/bootstrap/bootstrap.min.css"
+    - link: "/plugins/slick/slick.css"
+    - link: "/plugins/animate/animate.css"
+    - link: "/plugins/venobox/venobox.css"
+    - link: "/plugins/themify-icons/themify-icons.css"
+    js:
+    - link: "/plugins/jQuery/jquery.min.js"
+    - link: "/plugins/bootstrap/bootstrap.min.js"
+    - link: "/plugins/slick/slick.min.js"
+    - link: "/plugins/venobox/venobox.min.js"
+    - link: "/plugins/filterizr/jquery.filterizr.min.js"
+  logo: images/logo.png
+  description: This is meta description
+  author: Themefisher
+  address: Jl. Labu Siam, Kel. Sempaja Timur, Kec. Samarinda Utara, Kota Samarinda,
+    Kalimantan Timur 75131
+  mobile: "+62 812-5542-670"
+  email: rt32.bengkuring.sempaja@gmail.com
+  contact_form_action: "/contact"
+  google_analitycs_id: ''
+  top_header: false
+  preloader:
+    enable: false
+    preloader: images/preloader.gif
+  subscription:
+    enable: false
+    mailchimp_form_action: https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
+    mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
+  map:
+    enable: true
+    gmap_api: https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
+    map_latitude: "-0.4269341976387936"
+    map_longitude: "117.16266208698144"
+    map_marker: images/marker.png
+  cookies:
+    enable: true
+    expire_days: 2
+  social:
+  - title: facebook
+    icon: ti-facebook
+    link: "#"
+  - title: twitter
+    icon: ti-twitter-alt
+    link: "#"
+  - title: instagram
+    icon: ti-instagram
+    link: "#"
+  - title: github
+    icon: ti-github
+    link: "#"
+  - title: linkedin
+    icon: ti-linkedin
+    link: "#"
+Languages:
+  en:
+    languageName: En
+    languageCode: en-us
+    contentDir: content/
+    weight: 1
+    home: Home
+    copyright: Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
+    menu:
+      main:
+      - name: Tentang
+        url: about/
+        weight: 1
+      - name: Lainnya
+        weight: 4
+        hasChildren: true
+        url: ''
+      - parent: Lainnya
+        weight: 1
+        name: Acara Lokal
+        url: acara/
+      - parent: Lainnya
+        weight: 2
+        name: pasar
+        url: pasar/
+      - parent: Lainnya
+        weight: 2
+        name: Staf
+        url: staff/
+      - parent: Lainnya
+        name: Admin
+        url: admin/
+        weight: 3
+      - name: blog
+        url: blog/
+        weight: 3
+      - name: Kontak
+        url: contact/
+        weight: 5
+      footer:
+      - name: staff
+        url: staff/
+      - name: Acara
+        url: acara/
+      - name: Admin
+        url: admin/
+      - name: KKN
+        url: kkn19/
+      helper:
+      - name: Netlify
+        url: https://app.netlify.com/sites/rt32bengkuring/overview
+      - name: Forestry (Admin)
+        url: https://app.forestry.io/sites/54h9udufzrvucq/
+      - name: Disqus (Komentar)
+        url: https://rt32bengkuring.disqus.com/admin/settings/general/
+      - name: Niagahoster (Hosting)
+        url: https://panel.niagahoster.co.id/client
+metaDataFormat: yaml

@@ -1,0 +1,201 @@
+---
+label: Template-Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: URL
+- type: text
+  name: title
+  label: Nama Website
+- type: text
+  name: paginate
+  label: Jumlah Kontent Per Halaman
+- type: text
+  name: summaryLength
+  label: Panjang Deskripsi
+- type: text
+  name: disqusShortname
+  label: Shortname untuk Disqus
+- type: boolean
+  name: enableRobotsTXT
+  label: Aktifkan Robot Txt
+- type: field_group
+  name: params
+  label: Parameter
+  fields:
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: link
+        label: link
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: link
+        label: link
+  - type: file
+    name: logo
+    label: logo
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: address
+    label: address
+  - type: text
+    name: mobile
+    label: mobile
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: contact_form_action
+    label: contact_form_action
+  - type: text
+    name: google_analitycs_id
+    label: google_analitycs_id
+  - type: boolean
+    name: top_header
+    label: top_header
+  - type: field_group
+    name: preloader
+    label: preloader
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: file
+      name: preloader
+      label: preloader
+  - type: field_group
+    name: subscription
+    label: subscription
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: mailchimp_form_action
+      label: mailchimp_form_action
+    - type: text
+      name: mailchimp_form_name
+      label: mailchimp_form_name
+  - type: field_group
+    name: map
+    label: map
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: gmap_api
+      label: gmap_api
+    - type: text
+      name: map_latitude
+      label: map_latitude
+    - type: text
+      name: map_longitude
+      label: map_longitude
+    - type: file
+      name: map_marker
+      label: map_marker
+  - type: field_group
+    name: cookies
+    label: cookies
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: number
+      name: expire_days
+      label: expire_days
+  - type: field_group_list
+    name: social
+    label: social
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: Languages
+  label: Languages
+  fields:
+  - type: field_group
+    name: en
+    label: en
+    fields:
+    - type: text
+      name: languageName
+      label: languageName
+    - type: text
+      name: languageCode
+      label: languageCode
+    - type: text
+      name: contentDir
+      label: contentDir
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: home
+      label: home
+    - type: text
+      name: copyright
+      label: copyright
+    - type: field_group
+      name: menu
+      label: menu
+      fields:
+      - type: field_group_list
+        name: main
+        label: main
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: url
+          label: url
+        - type: number
+          name: weight
+          label: weight
+      - type: field_group_list
+        name: footer
+        label: footer
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: url
+          label: url
+      - type: field_group_list
+        name: helper
+        label: helper
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: url
+          label: url
+pages:
+- config.yaml

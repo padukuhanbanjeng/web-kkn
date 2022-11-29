@@ -1,0 +1,94 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <!-- course thumb -->
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    </div>
+    <!-- course info -->
+    <div class="row align-items-center mb-5">
+      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h2>{{ .Title }}</h2>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ "Buka Hari" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Open }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-timer text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ "Dari Jam" | upper }}</h6>
+                <p class="mb-0">{{ .Params.duration }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ "Mulai Harga" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Fee }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <a href="https://api.whatsapp.com/send?phone={{ .Params.Wa }}&text={{ .Params.Message }}" target="_blank" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+      <!-- teacher -->
+      <div class="col-12">
+        <h5 class="mb-3">{{ "Penjual" | upper }}</h5>
+          <p class="mb-3">{{ .Params.Seller}}</p>
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+<!-- related course -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ "Dagangan Terkait" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- course item -->
+      {{ $related := (where site.RegularPages "Type" "pasar") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ range first 3 $related }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "pasar"}}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /related course -->
+
+{{ end }}
