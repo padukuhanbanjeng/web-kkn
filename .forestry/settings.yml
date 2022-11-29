@@ -17,13 +17,6 @@ sections:
   templates:
   - template-staff
 - type: directory
-  path: content/pasar
-  label: Pasar
-  create: all
-  match: "**/*"
-  templates:
-  - template-pasar
-- type: directory
   path: content/contact
   label: Contact
   create: all
