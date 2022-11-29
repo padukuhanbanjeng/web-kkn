@@ -1,9 +1,8 @@
 ---
-baseURL: rt32bengkuring.com
-title: Bengkuring RT 32
+baseURL: padukuhanbanjeng.com
+title: Padukuhan Banjeng
 paginate: "6"
 summaryLength: "10"
-disqusShortname: rt32bengkuring
 disableLanguages: []
 enableRobotsTXT: true
 params:
@@ -28,8 +27,8 @@ params:
   author: Themefisher
   address: Jl. Labu Siam, Kel. Sempaja Timur, Kec. Samarinda Utara, Kota Samarinda,
     Kalimantan Timur 75131
-  mobile: "+62 812-5542-670"
-  email: rt32.bengkuring.sempaja@gmail.com
+  mobile: ""
+  email: padukuhanbanjeng@gmail.com
   contact_form_action: "/contact"
   google_analitycs_id: ''
   top_header: false
@@ -72,7 +71,7 @@ Languages:
     contentDir: content/
     weight: 1
     home: Home
-    copyright: Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
+    copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
       - name: Tentang
@@ -115,11 +114,7 @@ Languages:
         url: kkn19/
       helper:
       - name: Netlify
-        url: https://app.netlify.com/sites/rt32bengkuring/overview
+        url: https://app.netlify.com/sites/padukuhanbanjeng/overview
       - name: Forestry (Admin)
         url: https://app.forestry.io/sites/54h9udufzrvucq/
-      - name: Disqus (Komentar)
-        url: https://rt32bengkuring.disqus.com/admin/settings/general/
-      - name: Niagahoster (Hosting)
-        url: https://panel.niagahoster.co.id/client
 metaDataFormat: yaml

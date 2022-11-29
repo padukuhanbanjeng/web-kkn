@@ -14,9 +14,6 @@ fields:
 - type: text
   name: summaryLength
   label: Panjang Deskripsi
-- type: text
-  name: disqusShortname
-  label: Shortname untuk Disqus
 - type: boolean
   name: enableRobotsTXT
   label: Aktifkan Robot Txt
