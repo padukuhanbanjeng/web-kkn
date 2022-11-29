@@ -43,5 +43,3 @@ fields:
 - type: text
   name: fee
   label: Harga
-pages:
-- content/pasar/jalee.md
