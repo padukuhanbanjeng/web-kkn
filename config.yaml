@@ -74,6 +74,38 @@ Languages:
         weight: 3
         name: Profil Kepala Dukuh
         url: kepaladukuh/
+      - name: Inovasi Desa
+        weight: 4
+        hasChildren: true
+        url: ''
+      - parent: Inovasi Desa
+        weight: 1
+        name: Padukuhan Literasi
+        url: literasi/
+      - parent: Inovasi Desa
+        weight: 2
+        name: Kampung KB
+        url: kampungkb/
+      - parent: Inovasi Desa
+        weight: 3
+        name: Posyandu
+        url: posyandu/
+      - parent: Inovasi Desa
+        weight: 4
+        name: Perikanan
+        url: perikanan/
+      - parent: Inovasi Desa
+        weight: 5
+        name: Taman WMB Banjeng
+        url: taman/
+      - parent: Inovasi Desa
+        weight: 6
+        name: Perternakan
+        url: perternakan/
+      - parent: Inovasi Desa
+        weight: 7
+        name: UMKM
+        url: umkm/
       footer:
       - name: staff
         url: staff/
