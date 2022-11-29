@@ -69,7 +69,7 @@ about:
     label: Pelajari Lebih Lanjut
     link: about/
 pasar:
-  enable: true
+  enable: false
   title: Pasar Lokal
 cta:
   enable: false
