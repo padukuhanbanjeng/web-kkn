@@ -13,7 +13,6 @@ description: Pada hari Minggu, 20 November 2022 sekitar pukul 07.15 WIB dilapang
   voli grogol telah dilaksanakan giat senam bersama KKN STP AMPTA KELOMPOK 3 MAGUWOHARJO
   beserta masyarakat rw 37, meliputi masyarakat rt 07 dan rt 08 yang dipandu oleh
   mbak hana dari gedong kuning.
-draft: true
 
 ---
 Pada hari Minggu, 20 November 2022 sekitar pukul 07.15 WIB dilapangan voli grogol telah dilaksanakan giat senam bersama KKN STP AMPTA KELOMPOK 3 MAGUWOHARJO beserta masyarakat rw 37, meliputi masyarakat rt 07 dan rt 08 yang dipandu oleh mbak hana dari gedong kuning. Masyarakat sangat terlihat antusias untuk mengikuti kegiatan senam tersebut. Dari ibu muda hingga ibu yang sudah lanjut usia semuanya semangat dalam mengikuti gerakan demi gerakan yang dipandu oleh instruktur.
