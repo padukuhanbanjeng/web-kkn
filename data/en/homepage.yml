@@ -92,7 +92,7 @@ success_story:
     ad minim veniam, quis nostrud exercitation ullamco laboris
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 event:
-  enable: true
+  enable: false
   title: Acara
 funfacts:
   enable: true
