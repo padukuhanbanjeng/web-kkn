@@ -58,30 +58,6 @@ Languages:
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
-      - name: Galeri
-        weight: 5
-        hasChildren: true
-        url: ''
-      - parent: Galeri
-        weight: 1
-        name: Dusun Banjeng
-        url: dusunbanjeng/
-      - parent: Galeri
-        weight: 2
-        name: Dusun Tempelsari
-        url: dusuntempelsari/
-      - parent: Galeri
-        weight: 3
-        name: Dusun Grogol
-        url: dusungrogol/
-      - parent: Galeri
-        weight: 4
-        name: Dusun Bokoharjo
-        url: dusunbokoharjo/
-      - parent: Galeri
-        weight: 5
-        name: Ayodya Citra
-        url: ayodyacitra/
       - name: Inovasi Desa
         weight: 7
         hasChildren: true
@@ -114,6 +90,30 @@ Languages:
         weight: 7
         name: UMKM
         url: umkm/
+      - name: Galeri
+        weight: 5
+        hasChildren: true
+        url: ''
+      - parent: Galeri
+        weight: 1
+        name: Dusun Banjeng
+        url: dusunbanjeng/
+      - parent: Galeri
+        weight: 2
+        name: Dusun Tempelsari
+        url: dusuntempelsari/
+      - parent: Galeri
+        weight: 3
+        name: Dusun Grogol
+        url: dusungrogol/
+      - parent: Galeri
+        weight: 4
+        name: Dusun Bokoharjo
+        url: dusunbokoharjo/
+      - parent: Galeri
+        weight: 5
+        name: Ayodya Citra
+        url: ayodyacitra/
       - name: Profil
         weight: 4
         hasChildren: true
