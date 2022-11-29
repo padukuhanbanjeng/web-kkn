@@ -10,7 +10,6 @@ categories:
 tags:
 - Testing
 description: Deskripsi Singatnya bro
-draft: true
 
 ---
 Jadi gini ngab ya gitu lah ngab
