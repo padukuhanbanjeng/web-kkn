@@ -30,11 +30,6 @@ sections:
   match: "**/*"
   templates:
   - template
-- type: directory
-  path: content/acara
-  label: Acara
-  create: all
-  match: "**/*"
 - type: heading
   label: Konfigurasi
 - type: document
