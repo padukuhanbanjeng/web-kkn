@@ -55,7 +55,7 @@ Languages:
     languageCode: en-us
     contentDir: content/
     weight: 1
-    home: Home
+    # home: Home
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
