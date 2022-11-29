@@ -27,7 +27,7 @@ params:
   author: Themefisher
   address: Jl. Labu Siam, Kel. Sempaja Timur, Kec. Samarinda Utara, Kota Samarinda,
     Kalimantan Timur 75131
-  mobile: ""
+  mobile: ''
   email: padukuhanbanjeng@gmail.com
   contact_form_action: "/contact"
   google_analitycs_id: ''
@@ -48,22 +48,7 @@ params:
   cookies:
     enable: true
     expire_days: 2
-  social:
-  - title: facebook
-    icon: ti-facebook
-    link: "#"
-  - title: twitter
-    icon: ti-twitter-alt
-    link: "#"
-  - title: instagram
-    icon: ti-instagram
-    link: "#"
-  - title: github
-    icon: ti-github
-    link: "#"
-  - title: linkedin
-    icon: ti-linkedin
-    link: "#"
+  social: []
 Languages:
   en:
     languageName: En
