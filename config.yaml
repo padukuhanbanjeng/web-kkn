@@ -58,8 +58,20 @@ Languages:
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
+      - parent: Profil
+        weight: 1
+        name: Demografi
+        url: demografi/
+      - parent: Profil
+        weight: 2
+        name: Visi, Misi & Slogan
+        url: visimisi/
+      - parent: Profil
+        weight: 3
+        name: Profil Kepala Dukuh
+        url: kepaladukuh/
       - name: Inovasi Desa
-        weight: 7
+        weight: 2
         hasChildren: true
         url: ''
       - parent: Inovasi Desa
@@ -95,7 +107,7 @@ Languages:
         hasChildren: true
         url: ''
       - parent: Galeri
-        weight: 1
+        weight: 3
         name: Dusun Banjeng
         url: dusunbanjeng/
       - parent: Galeri
@@ -118,18 +130,6 @@ Languages:
         weight: 4
         hasChildren: true
         url: ''
-      - parent: Profil
-        weight: 1
-        name: Demografi
-        url: demografi/
-      - parent: Profil
-        weight: 2
-        name: Visi, Misi & Slogan
-        url: visimisi/
-      - parent: Profil
-        weight: 3
-        name: Profil Kepala Dukuh
-        url: kepaladukuh/
       footer:
       - name: staff
         url: staff/
