@@ -58,32 +58,22 @@ Languages:
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
-      - name: Tentang
-        url: about/
-        weight: 1
-      - name: Lainnya
+      - name: Profil
         weight: 4
         hasChildren: true
         url: ''
-      - parent: Lainnya
+      - parent: Profil
         weight: 1
-        name: Acara Lokal
-        url: acara/
-      - parent: Lainnya
+        name: Demografi
+        url: demografi/
+      - parent: Profil
         weight: 2
-        name: pasar
-        url: pasar/
-      - parent: Lainnya
-        weight: 2
-        name: Staf
-        url: staff/
-      - parent: Lainnya
-        name: Admin
-        url: admin/
+        name: Visi, Misi & Slogan
+        url: visimisi/
+      - parent: Profil
         weight: 3
-      - name: Kontak
-        url: contact/
-        weight: 5
+        name: Profil Kepala Dukuh
+        url: kepaladukuh/
       footer:
       - name: staff
         url: staff/
