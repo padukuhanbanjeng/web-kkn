@@ -1,5 +1,5 @@
 ---
-title: Tentang Desa
+title: Demografi
 bg_image: images/demografi/masjid.webp
 image: images/demografi/masjid.webp
 description: ''
@@ -14,4 +14,4 @@ village_data:
   count: "1"
 
 ---
-## Tentang Desa Ini
+## Demografi
