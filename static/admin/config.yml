@@ -73,3 +73,17 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Nama Data", name: "name", widget: "string"}
           - {label: "Jumlah Data", name: "count", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "visimisi"
+    label: "Visi Misi"
+    folder: "content/visimisi"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/visimisi"
+    public_folder: "images/visimisi"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}

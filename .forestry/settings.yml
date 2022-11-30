@@ -10,6 +10,11 @@ sections:
   create: none
   match: "**/*"
 - type: directory
+  path: content/visimisi
+  label: Visi Misi
+  create: none
+  match: "**/*"
+- type: directory
   path: content/blog
   label: Blog
   create: all
