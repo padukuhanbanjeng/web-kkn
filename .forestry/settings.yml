@@ -58,6 +58,35 @@ sections:
   label: UMKM
   create: none
   match: "**/*"
+- type: heading
+  label: Galeri
+- type: directory
+  path: content/dusunbanjeng
+  label: Dusun Banjeng
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/dusuntempelsari
+  label: Dusun Tempelsari
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/dusungrogol
+  label: Dusun Grogol
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/dusunbokoharjo
+  label: Dusun Bokoharjo
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/ayodyacitra
+  label: Ayodya Citra
+  create: none
+  match: "**/*"
+- type: heading
+  label: Blog
 - type: directory
   path: content/blog
   label: Blog

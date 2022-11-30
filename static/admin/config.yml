@@ -199,3 +199,73 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
       - {label: "Gambar Thumbnail", name: "image", widget: "image"}
       - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "dusunbanjeng"
+    label: "Dusun Banjeng"
+    folder: "content/dusunbanjeng"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/dusunbanjeng"
+    public_folder: "images/dusunbanjeng"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "dusuntempelsari"
+    label: "Dusun Tempelsari"
+    folder: "content/dusuntempelsari"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/dusuntempelsari"
+    public_folder: "images/dusuntempelsari"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "dusungrogol"
+    label: "Dusun Grogol"
+    folder: "content/dusungrogol"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/dusungrogol"
+    public_folder: "images/dusungrogol"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "dusunbokoharjo"
+    label: "Dusun Bokoharjo"
+    folder: "content/dusunbokoharjo"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/dusunbakoharjo"
+    public_folder: "images/dusunbakoharjo"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "ayodyacitra"
+    label: "Ayodya Citra"
+    folder: "content/ayodyacitra"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/ayodyacitra"
+    public_folder: "images/ayodyacitra"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
