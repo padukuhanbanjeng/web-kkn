@@ -1,11 +1,11 @@
 ---
 title: Senam Grogol Ceria
 weight: "1"
-bg_image: images/dusunbanjeng/about-us.jpg
+bg_image: "images/dusunbanjeng/about-us.jpg"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud.
-image: images/img_7853.jpg
+image: "/images/img_7853.jpg"
 course: ''
 job: Job
 bio: Nilda the Leader
