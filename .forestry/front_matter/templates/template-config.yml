@@ -90,25 +90,6 @@ fields:
       name: mailchimp_form_name
       label: mailchimp_form_name
   - type: field_group
-    name: map
-    label: map
-    fields:
-    - type: boolean
-      name: enable
-      label: enable
-    - type: text
-      name: gmap_api
-      label: gmap_api
-    - type: text
-      name: map_latitude
-      label: map_latitude
-    - type: text
-      name: map_longitude
-      label: map_longitude
-    - type: file
-      name: map_marker
-      label: map_marker
-  - type: field_group
     name: cookies
     label: cookies
     fields:
@@ -118,19 +99,6 @@ fields:
     - type: number
       name: expire_days
       label: expire_days
-  - type: field_group_list
-    name: social
-    label: social
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: icon
-      label: icon
-    - type: text
-      name: link
-      label: link
 - type: field_group
   name: Languages
   label: Languages
