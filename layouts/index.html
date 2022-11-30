@@ -8,19 +8,15 @@
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="hero-slider">
-      <!-- slider item -->
-      {{ range first 3 (where site.RegularPages "Type" "post")}}
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
             <h1 class="text-white" data-animation-out='fadeOut{{ "right" | title }}' data-delay-out="5" data-duration-in=".3"
-              data-animation-in='fadeIn{{ "left" | title }}' data-delay-in=".1">{{ .Title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out='fadeOut{{ "right" | title }}' data-delay-out="5" data-duration-in=".3" data-animation-in='fadeIn{{ "left" | title }}' data-delay-in=".4">{{ .Summary | markdownify | truncate 100 }}</p>
-            <a href="{{ .Permalink | absLangURL }}" class="btn btn-primary" data-animation-out='fadeOut{{ "right" | title }}' data-delay-out="5" data-duration-in=".3" data-animation-in='fadeIn{{ "left" | title }}' data-delay-in=".7">Baca Sekarang</a>
+              data-animation-in='fadeIn{{ "left" | title }}' data-delay-in=".1">Selamat Datang di Website Resmi Padukuhan Banjeng, Kelurahan Maguwoharjo, Kapanewon Depok, Kabupaten Sleman</h1>
+            <a href="#Artikel" class="btn btn-primary" data-animation-out='fadeOut{{ "right" | title }}' data-delay-out="5" data-duration-in=".3" data-animation-in='fadeIn{{ "left" | title }}' data-delay-in=".7">Jelajahi</a>
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
@@ -34,7 +30,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+        <h2 class="section-title" id="Artikel">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">
