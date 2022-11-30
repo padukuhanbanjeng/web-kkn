@@ -101,3 +101,101 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
       - {label: "Gambar Thumbnail", name: "image", widget: "image"}
       - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "literasi"
+    label: "Literasi"
+    folder: "content/literasi"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/literasi"
+    public_folder: "images/literasi"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "kampungkb"
+    label: "Kampung KB"
+    folder: "content/kampungkb"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/kampungkb"
+    public_folder: "images/kampungkb"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "posyandu"
+    label: "Posyandu"
+    folder: "content/posyandu"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/posyandu"
+    public_folder: "images/posyandu"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "perikanan"
+    label: "Perikanan"
+    folder: "content/perikanan"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/perikanan"
+    public_folder: "images/perikanan"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "taman"
+    label: "Taman"
+    folder: "content/taman"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/taman"
+    public_folder: "images/taman"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "perternakan"
+    label: "Perternakan"
+    folder: "content/perternakan"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/perternakan"
+    public_folder: "images/perternakan"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "umkm"
+    label: "UMKM"
+    folder: "content/umkm"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/umkm"
+    public_folder: "images/umkm"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}

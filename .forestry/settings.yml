@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: "/static/admin-forestry"
 webhook_url: 
 sections:
+- type: heading
+  label: Profil
 - type: directory
   path: content/demografi
   label: Demografi
@@ -17,6 +19,43 @@ sections:
 - type: directory
   path: content/kepaladukuh
   label: Kepala Dukuh
+  create: none
+  match: "**/*"
+- type: heading
+  label: Inovasi Desa
+- type: directory
+  path: content/literasi
+  label: Literasi
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/kampungkb
+  label: Kampung KB
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/posyandu
+  label: Posyandu
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/perikanan
+  label: Perikanan
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/taman
+  label: Taman
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/perternakan
+  label: Perternakan
+  create: none
+  match: "**/*"
+- type: directory
+  path: content/umkm
+  label: UMKM
   create: none
   match: "**/*"
 - type: directory
