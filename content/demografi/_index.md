@@ -1,8 +1,8 @@
 ---
 title: Demografi
 bg_image: images/demografi/masjid.webp
-image: images/demografi/masjid.webp
-description: Tes
+image: 
+description: 
 dusun_banjeng:
 - name: Rukun Tetangga
   count: "100"
