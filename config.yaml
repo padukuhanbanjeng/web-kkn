@@ -28,7 +28,7 @@ params:
   address: 
   mobile: ''
   email: padukuhanbanjeng@gmail.com
-  contact_form_action: "/contact"
+  contact_form_action: ""
   google_analitycs_id: ''
   top_header: false
   preloader:
