@@ -63,7 +63,7 @@
         <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST" data-netlify="true" netlify>
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nama Kalian" required>
           <input type="number" class="form-control mb-3" id="mail" name="mail" placeholder="No. Whatsapp" required>
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Keperluan/Subject" required>
+          <!-- <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Keperluan/Subject"> -->
           <textarea name="message" id="message" class="form-control mb-3" placeholder="Pesan Kalian" required></textarea>
           <button type="submit" value="send" class="btn btn-primary">{{ "Kirim" }}</button>
         </form>
