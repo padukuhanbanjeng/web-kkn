@@ -50,18 +50,6 @@ Languages:
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
-      - parent: Profil
-        weight: 1
-        name: Demografi
-        url: demografi/
-      - parent: Profil
-        weight: 2
-        name: Visi, Misi & Slogan
-        url: visimisi/
-      - parent: Profil
-        weight: 3
-        name: Profil Kepala Dukuh
-        url: kepaladukuh/
       - name: Inovasi Desa
         weight: 2
         hasChildren: true
@@ -94,6 +82,18 @@ Languages:
         weight: 7
         name: UMKM
         url: umkm/
+      - parent: Profil
+        weight: 1
+        name: Demografi
+        url: demografi/
+      - parent: Profil
+        weight: 2
+        name: Visi, Misi & Slogan
+        url: visimisi/
+      - parent: Profil
+        weight: 3
+        name: Profil Kepala Dukuh
+        url: kepaladukuh/
       - name: Galeri
         weight: 5
         hasChildren: true
