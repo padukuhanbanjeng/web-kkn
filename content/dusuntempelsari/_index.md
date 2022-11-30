@@ -1,8 +1,8 @@
 ---
-title: Profil Kepala Dukuh
-bg_image: images/kepaladukuh/about-us.jpg
+title: Dusun Tempelsari
+bg_image: images/dusuntempelsari/about-us.jpg
 image: 
 description: 
 
 ---
-## Profil Kepala Dukuh
+## Galeri Dusun Tempelsari
