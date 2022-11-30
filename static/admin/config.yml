@@ -43,7 +43,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Gambar Thumbnail", name: "image", widget: "image"}
       - {label: "Deskripsi", name: "description", widget: "string"}
       - label : "Data Desa"
-        name  : "village_data"
+        name  : "dusun_banjeng"
         widget: "list"
         fields:
           - {label: "Nama Data", name: "name", widget: "string"}

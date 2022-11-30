@@ -3,15 +3,13 @@ title: Demografi
 bg_image: images/demografi/masjid.webp
 image: images/demografi/masjid.webp
 description: Tes
-village_data:
-- name: Warga
+dusun_banjeng:
+- name: Rukun Tetangga
   count: "100"
-- name: Kepala Keluarga
+- name: Rukun Warga
   count: "112"
-- name: Sekolah
+- name: Jumlah Penduduk
   count: "10"
-- name: Rumah Ibadah
-  count: "1"
 
 ---
 ## Demografi
