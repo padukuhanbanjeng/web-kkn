@@ -1,9 +1,9 @@
 ---
-date: 2022-11-29T17:42:37+07:00
-bg_image: "/banner/banner-samarinda-river.jpg"
+date: 2022-11-29T17:42:37.000+07:00
+bg_image: "/images/img_7853.jpg"
 author: Admin
 type: post
-image: "/splash.png"
+image: "/images/img_7853.jpg"
 title: Senam Grogol Ceria
 categories:
 - Kategori
