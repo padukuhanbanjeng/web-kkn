@@ -50,6 +50,22 @@ Languages:
     copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
+      - name: Profil
+        weight: 1
+        hasChildren: true
+        url: ''
+      - parent: Profil
+        weight: 1
+        name: Demografi
+        url: demografi/
+      - parent: Profil
+        weight: 2
+        name: Visi, Misi & Slogan
+        url: visimisi/
+      - parent: Profil
+        weight: 3
+        name: Profil Kepala Dukuh
+        url: kepaladukuh/
       - name: Inovasi Desa
         weight: 2
         hasChildren: true
@@ -82,24 +98,12 @@ Languages:
         weight: 7
         name: UMKM
         url: umkm/
-      - parent: Profil
-        weight: 1
-        name: Demografi
-        url: demografi/
-      - parent: Profil
-        weight: 2
-        name: Visi, Misi & Slogan
-        url: visimisi/
-      - parent: Profil
-        weight: 3
-        name: Profil Kepala Dukuh
-        url: kepaladukuh/
       - name: Galeri
-        weight: 5
+        weight: 3
         hasChildren: true
         url: ''
       - parent: Galeri
-        weight: 3
+        weight: 1
         name: Dusun Banjeng
         url: dusunbanjeng/
       - parent: Galeri
@@ -118,10 +122,6 @@ Languages:
         weight: 5
         name: Ayodya Citra
         url: ayodyacitra/
-      - name: Profil
-        weight: 4
-        hasChildren: true
-        url: ''
       helper:
       - name: Netlify
         url: https://app.netlify.com/sites/padukuhanbanjeng/overview
