@@ -33,26 +33,6 @@ slider:
       enable: true
       label: Tombol
       link: contact/
-banner_feature:
-  enable: false
-  image: images/banner/banner-feature.png
-  feature_item:
-  - name: Item 1
-    icon: ti-book
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Item 2
-    icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Item 3
-    icon: ti-agenda
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Item 4
-    icon: ti-write
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
 blog:
   enable: true
   title: Artikel Terbaru
