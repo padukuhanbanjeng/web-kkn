@@ -37,4 +37,84 @@
 {{ end }}
 <!-- /funfacts -->
 
+<!-- funfacts -->
+{{ with .Params.dusun_tempelsari }}
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      {{ range . }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h5 class="text-white">{{ .name }}</h5>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /funfacts -->
+
+<!-- funfacts -->
+{{ with .Params.dusun_grogol }}
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      {{ range . }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h5 class="text-white">{{ .name }}</h5>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /funfacts -->
+
+<!-- funfacts -->
+{{ with .Params.dusun_bokoharjo }}
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      {{ range . }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h5 class="text-white">{{ .name }}</h5>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /funfacts -->
+
+<!-- funfacts -->
+{{ with .Params.perumahan_ayodya_citra }}
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      {{ range . }}
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+          <h5 class="text-white">{{ .name }}</h5>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /funfacts -->
+
 {{ end }}

@@ -48,4 +48,28 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Nama Data", name: "name", widget: "string"}
           - {label: "Jumlah Data", name: "count", widget: "number"}
+      - label : "Data Desa"
+        name  : "dusun_tempelsari"
+        widget: "list"
+        fields:
+          - {label: "Nama Data", name: "name", widget: "string"}
+          - {label: "Jumlah Data", name: "count", widget: "number"}
+      - label : "Data Desa"
+        name  : "dusun_grogol"
+        widget: "list"
+        fields:
+          - {label: "Nama Data", name: "name", widget: "string"}
+          - {label: "Jumlah Data", name: "count", widget: "number"}
+      - label : "Data Desa"
+        name  : "dusun_bokoharjo"
+        widget: "list"
+        fields:
+          - {label: "Nama Data", name: "name", widget: "string"}
+          - {label: "Jumlah Data", name: "count", widget: "number"}
+      - label : "Data Desa"
+        name  : "perumahan_ayodya_citra"
+        widget: "list"
+        fields:
+          - {label: "Nama Data", name: "name", widget: "string"}
+          - {label: "Jumlah Data", name: "count", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
