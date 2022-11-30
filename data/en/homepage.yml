@@ -1,20 +1,6 @@
 ---
 slider:
   bg_image: images/banner/banner.png
-<<<<<<< HEAD
-=======
-  slider_item:
-  - title: Slide 1
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
-    animation_in: left
-    animation_out: right
-    button:
-      enable: true
-      label: Tombol
-      link: contact/
->>>>>>> ac9eb3ee1182a8bd35831640d45f850d48341b2d
 blog:
   enable: true
   title: Artikel Terbaru
