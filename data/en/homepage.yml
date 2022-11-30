@@ -68,9 +68,6 @@ about:
     enable: true
     label: Pelajari Lebih Lanjut
     link: about/
-pasar:
-  enable: false
-  title: Pasar Lokal
 cta:
   enable: false
   subtitle: Click to Join the Advance Workshop

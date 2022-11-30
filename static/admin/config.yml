@@ -57,29 +57,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
       - {label: "Isi Artikel", name: "body", widget: "markdown"}
   
-  - name: "pasar"
-    label: "Pasar"
-    folder: "content/pasar"
-    create: true
-    identifier_field: name
-    media_folder: "/static/images/courses"
-    public_folder: "images/courses"
-    fields:
-      - {label: "Nama Dagangan", name: "title", widget: "string"}
-      - {label: "Deskripsi", name: "description", widget: "string"}
-      - {label: "Harga", name: "fee", widget: "string"}
-      - {label: "Alamat", name: "location", widget: "string"}
-      - {label: "Link Kontak", name: "apply_url", widget: "string"}
-      - {label: "Nama Penjual", name: "seller", widget: "string"}
-      - {label: "Jam Buka", name: "duration", widget: "string", default: "07:00 - 13:00"}
-      - {label: "Hari Buka", name: "open", widget: "string", default: "Senin - Jum'at"}
-      - {label: "Tanggal Di Upload", name: "date", widget: "datetime"}
-      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
-      - {label: "Poster Untuk Dagangan", name: "image", widget: "image"}
-      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Tipe", name: "type", widget: "hidden", default: "pasar"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  
   - name: "tentang"
     label: "Tentang"
     folder: "content/about"
