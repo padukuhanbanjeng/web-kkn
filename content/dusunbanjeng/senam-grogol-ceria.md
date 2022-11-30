@@ -1,6 +1,6 @@
 ---
 title: Senam Grogol Ceria
-weight: "1"
+weight: 1
 bg_image: "images/dusunbanjeng/about-us.jpg"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
