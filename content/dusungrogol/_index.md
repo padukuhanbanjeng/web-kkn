@@ -1,8 +1,8 @@
 ---
-title: Profil Kepala Dukuh
+title: Galeri Dusun Grogol
 bg_image: images/kepaladukuh/about-us.jpg
 image: 
 description: 
 
 ---
-## Profil Kepala Dukuh
+## Galeri Dusun Grogol
