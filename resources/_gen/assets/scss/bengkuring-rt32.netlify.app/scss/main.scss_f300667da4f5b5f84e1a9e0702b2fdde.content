@@ -230,8 +230,7 @@ a h4:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background: #1a1a37;
-    opacity: .8; }
+    background: #1a1a37; }
 
 .outline-0 {
   outline: 0 !important; }
