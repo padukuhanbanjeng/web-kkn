@@ -53,57 +53,6 @@ banner_feature:
     icon: ti-write
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-about:
-  enable: false
-  title: Tentang Desa ini
-  image: images/about/about-us.jpg
-  content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat  pariatur. Excepteur sint occaecatcupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    iste natus error sit voluptatem '
-  button:
-    enable: true
-    label: Pelajari Lebih Lanjut
-    link: about/
-cta:
-  enable: false
-  subtitle: Click to Join the Advance Workshop
-  title: Training In Advannce Networking
-  button:
-    enable: true
-    label: join now
-    link: contact/
-success_story:
-  enable: false
-  bg_image: images/backgrounds/success-story.jpg
-  title: Success Stories
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat pariatur. Excepteur sint occaecat.ipsum dolor sit amet, consectetur adipisicing
-    elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim
-    ad minim veniam, quis nostrud exercitation ullamco laboris
-  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
-event:
-  enable: false
-  title: Acara
-funfacts:
-  enable: true
-  funfact_item:
-  - name: Warga
-    count: 100+
-  - name: Kepala Keluarga
-    count: "112"
-  - name: Rumah Ibadah
-    count: "1"
-  - name: Luas Wilayah
-    count: 140Km
 blog:
   enable: true
   title: Artikel Terbaru
-staf:
-  enable: false
