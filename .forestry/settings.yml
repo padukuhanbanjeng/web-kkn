@@ -10,20 +10,6 @@ sections:
   create: none
   match: "**/*"
 - type: directory
-  path: content/staff
-  label: Staff
-  create: all
-  match: "**/*"
-  templates:
-  - template-staff
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-  templates:
-  - template-kontak
-- type: directory
   path: content/blog
   label: Blog
   create: all
