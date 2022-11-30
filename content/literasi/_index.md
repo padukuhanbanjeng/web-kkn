@@ -1,8 +1,8 @@
 ---
-title: Visi, Misi & Slogan
-bg_image: images/visimisi/about-us.jpg
+title: Padukuhan Literasi
+bg_image: images/literasi/about-us.jpg
 image: 
 description: 
 
 ---
-## Visi, Misi & Slogan
+## Padukuhan Literasi
