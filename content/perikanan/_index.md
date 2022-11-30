@@ -1,8 +1,10 @@
 ---
-title: Profil Kepala Dukuh
-bg_image: images/kepaladukuh/about-us.jpg
+title: Perikanan Mina Mulya Tempelsari
+bg_image: images/perikanan/about-us.jpg
 image: 
 description: 
 
 ---
-## Profil Kepala Dukuh
+## Perikanan Mina Mulya Tempelsari
+
+Kelompok Budidaya Ikan (KPI) Mina Mulya adalah salah satu kelompok pembudidaya ikan yang berlokasi di Tempelsari, Kelurahan Maguwoharjo, Kab. Sleman.
