@@ -15,6 +15,11 @@ sections:
   create: none
   match: "**/*"
 - type: directory
+  path: content/kepaladukuh
+  label: Kepala Dukuh
+  create: none
+  match: "**/*"
+- type: directory
   path: content/blog
   label: Blog
   create: all

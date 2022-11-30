@@ -87,3 +87,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
       - {label: "Gambar Thumbnail", name: "image", widget: "image"}
       - {label: "Deskripsi", name: "description", widget: "string"}
+
+  - name: "kepaladukuh"
+    label: "Kepala Dukuh"
+    folder: "content/kepaladukuh"
+    create: false
+    identifier_field: name
+    media_folder: "/static/images/kepaladukuh"
+    public_folder: "images/kepaladukuh"
+    fields:
+      - {label: "Halaman Tentang", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar Thumbnail", name: "image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
