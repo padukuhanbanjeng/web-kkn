@@ -9,9 +9,7 @@ image: images/img_7853.jpg
 course: ''
 job: Job
 bio: Nilda the Leader
-interest:
-- Tour Guy
-- Human Computer Interfacing
+interest: []
 
 ---
 ## Proker Individu
