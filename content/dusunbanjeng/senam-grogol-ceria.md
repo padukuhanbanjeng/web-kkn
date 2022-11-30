@@ -6,15 +6,15 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud.
 image: "/images/img_7853.jpg"
-course: ''
+course: 'Senam'
 job: Job
 bio: Nilda the Leader
 interest: []
 
 ---
-## Proker Individu
+## Senam Grogol Ceria
 
-### 1. Poster Edukasi Penyebaran Omnicron
+### 1. Persiapan
 
 ![gambar](/images/kkn19/baksos-1.webp)
 
