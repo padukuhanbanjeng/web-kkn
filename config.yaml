@@ -25,10 +25,10 @@ params:
   logo: images/logo.png
   description: This is meta description
   author: Themefisher
-  address: 
+  address: ''
   mobile: ''
-  email: padukuhanbanjeng@gmail.com
-  contact_form_action: ""
+  email: ''
+  contact_form_action: ''
   google_analitycs_id: ''
   top_header: false
   preloader:
@@ -127,4 +127,6 @@ Languages:
         url: https://app.netlify.com/sites/padukuhanbanjeng/overview
       - name: Forestry (Admin)
         url: https://app.forestry.io/sites/54h9udufzrvucq/
+      footer: []
+    home: ''
 metaDataFormat: yaml
