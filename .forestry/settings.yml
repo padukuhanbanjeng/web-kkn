@@ -5,7 +5,7 @@ admin_path: "/static/admin-forestry"
 webhook_url: 
 sections:
 - type: directory
-  path: content/about
+  path: content/demografi
   label: Tentang
   create: none
   match: "**/*"

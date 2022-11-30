@@ -9,34 +9,6 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "acara"
-    label: "Acara"
-    folder: "content/acara"
-    create: true
-    identifier_field: name
-    media_folder: "/static/images/events"
-    public_folder: "images/events"
-    fields:
-      - {label: "Judul Acara", name: "title", widget: "string"}
-      - {label: "Deskripsi", name: "description", widget: "string"}
-      - {label: "Harga", name: "fee", widget: "string"}
-      - {label: "Link Pendaftaran", name: "apply_url", widget: "string", default: "#"}
-      - {label: "Lokasi", name: "location", widget: "string"}
-      - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
-      - {label: "Tanggal Acara", name: "date", widget: "datetime"}
-      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
-      - {label: "Poster Untuk Event", name: "image", widget: "image"}
-      - {label: "Tipe", name: "type", widget: "hidden", default: "event"}
-      - label: "Pembicara"
-        name: "speaker"
-        widget: "list"
-        fields: 
-          - {label: "Nama Pembicara", name: "name", widget: "string"}
-          - {label: "Gambar Pembicara", name: "image", widget: "image", default: "/event-speakers/speaker-1.jpg"}
-          - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "blog"
     label: "Blog Artikel"
     folder: "content/blog"
@@ -57,13 +29,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
       - {label: "Isi Artikel", name: "body", widget: "markdown"}
   
-  - name: "tentang"
-    label: "Tentang"
-    folder: "content/about"
+  - name: "demografi"
+    label: "Demografi"
+    folder: "content/demografi"
     create: false
     identifier_field: name
-    media_folder: "/static/images/about"
-    public_folder: "images/about"
+    media_folder: "/static/images/demografi"
+    public_folder: "images/demografi"
     fields:
       - {label: "Halaman Tentang", name: "title", widget: "string"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
@@ -77,21 +49,3 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Nama Data", name: "name", widget: "string"}
           - {label: "Jumlah Data", name: "count", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-      
-  # - name: "staff"
-  #   label: "Staff"
-  #   folder: "content/english/staff"
-  #   create: true
-  #   identifier_field: name
-  #   media_folder: "/static/images/teachers"
-  #   public_folder: "images/teachers"
-  #   fields:
-  #     - {label: "Nama Staf", name: "title", widget: "string"}
-  #     - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
-  #     - {label: "Deskripsi", name: "description", widget: "hidden"}
-  #     - {label: "Foto Staf", name: "image", widget: "image", default: "images/teachers/syahril.jpg"}
-  #     - {label: "Jabatan/Bagian", name: "course", widget: "string"}
-  #     - {label: "Bio", name: "bio", widget: "string"}
-  #     - {label: "Hobi", name: "interest", widget: "list"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-

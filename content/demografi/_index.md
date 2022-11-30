@@ -1,7 +1,7 @@
 ---
 title: Tentang Desa
-bg_image: images/about/masjid.webp
-image: images/about/masjid.webp
+bg_image: images/demografi/masjid.webp
+image: images/demografi/masjid.webp
 description: ''
 village_data:
 - name: Warga
