@@ -25,8 +25,7 @@ params:
   logo: images/logo.png
   description: This is meta description
   author: Themefisher
-  address: Jl. Labu Siam, Kel. Sempaja Timur, Kec. Samarinda Utara, Kota Samarinda,
-    Kalimantan Timur 75131
+  address: 
   mobile: ''
   email: padukuhanbanjeng@gmail.com
   contact_form_action: "/contact"
@@ -130,15 +129,6 @@ Languages:
         weight: 4
         hasChildren: true
         url: ''
-      footer:
-      - name: staff
-        url: staff/
-      - name: Acara
-        url: acara/
-      - name: Admin
-        url: admin/
-      - name: KKN
-        url: kkn19/
       helper:
       - name: Netlify
         url: https://app.netlify.com/sites/padukuhanbanjeng/overview
