@@ -3,8 +3,6 @@
 {{ $data := index site.Data site.Language.Lang }}
 
 <!-- hero slider -->
-{{ if $data.homepage.slider.enable }}
-{{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="hero-slider">
@@ -19,8 +17,6 @@
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
 <!-- /hero slider -->
 
 <!-- blog -->
