@@ -31,5 +31,3 @@ fields:
 - type: list
   name: interest
   label: Hobi / Keahlian
-pages:
-- content/staff/pak-rt.md
