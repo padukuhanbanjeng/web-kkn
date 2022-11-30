@@ -30,7 +30,7 @@ params:
   email: ''
   contact_form_action: ''
   google_analitycs_id: ''
-  top_header: true
+  top_header: false
   preloader:
     enable: false
     preloader: images/preloader.gif
