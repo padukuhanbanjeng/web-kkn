@@ -1,8 +1,8 @@
 ---
-title: Profil Kepala Dukuh
-bg_image: images/kepaladukuh/about-us.jpg
+title: Galeri Ayodya Citra
+bg_image: images/ayodyacitra/about-us.jpg
 image: 
 description: 
 
 ---
-## Profil Kepala Dukuh
+## Galeri Ayodya Citra

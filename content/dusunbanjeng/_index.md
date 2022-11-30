@@ -1,8 +1,8 @@
 ---
-title: Dusun Banjeng
+title: Galeri Dusun Banjeng
 bg_image: images/dusunbanjeng/about-us.jpg
-image: 
 description: 
+image: 
 
 ---
 ## Galeri Dusun Tempelsari

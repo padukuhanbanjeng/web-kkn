@@ -1,5 +1,5 @@
 ---
-title: Dusun Tempelsari
+title: Galeri Dusun Tempelsari
 bg_image: images/dusuntempelsari/about-us.jpg
 image: 
 description: 

@@ -1,8 +1,8 @@
 ---
-title: Profil Kepala Dukuh
-bg_image: images/kepaladukuh/about-us.jpg
+title: Galeri Dusun Bokoharjo
+bg_image: images/dusunbokoharjo/about-us.jpg
 image: 
 description: 
 
 ---
-## Profil Kepala Dukuh
+## Galeri Dusun Bokoharjo
