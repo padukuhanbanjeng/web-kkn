@@ -5,8 +5,6 @@ image:
 description: 
 
 ---
-## Visi, Misi & Slogan
-
 **Visi**
 
 Terwujudnya Masyarakat yang Aman, Religius, Unggul dan Makmur.
