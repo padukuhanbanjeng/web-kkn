@@ -1,7 +1,7 @@
 ---
 slider:
   enable: true
-  bg_image: images/banner/banner-samarinda-river.jpg
+  bg_image: images/banner/banner.png
   slider_item:
   - title: Slide 1
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
