@@ -2,7 +2,7 @@
 title: Demografi
 bg_image: images/demografi/masjid.webp
 image: images/demografi/masjid.webp
-description: ''
+description: Tes
 village_data:
 - name: Warga
   count: "100"
