@@ -10,11 +10,11 @@
   $(window).scroll(function () {
     var height = $('.top-header').innerHeight();
     if ($('header').offset().top > 10) {
-      $('.top-header').addClass('nav-bg');
+      $('.top-header').addClass('hide');
       $('.navigation').addClass('nav-bg');
       $('.navigation').css('margin-top','-'+height+'px');
     } else {
-      $('.top-header').removeClass('nav-bg');
+      $('.top-header').removeClass('hide');
       $('.navigation').removeClass('nav-bg');
       $('.navigation').css('margin-top','-'+0+'px');
     }
