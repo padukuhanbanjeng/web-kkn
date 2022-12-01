@@ -9,10 +9,10 @@ description:
 
 ![](/images/group-48.png)
 
-* Profil Kepala Dukuh
+* **Profil Kepala Dukuh**
 
   Musthofa Ahmad Alhusaini, S. Pd. I
-* Riwayat Pendidikan
+* **Riwayat Pendidikan**
 
   Madrasah Ibtidaiyah Boyolali
 
