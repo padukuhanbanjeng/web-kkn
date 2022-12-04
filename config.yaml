@@ -47,7 +47,7 @@ Languages:
     languageCode: en-us
     contentDir: content/
     weight: 1
-    copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)
+    copyright: Copyright &copy; 2022 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/) | by KKN STP AMPTA YOGYAKARTA, MAGUWOHARJO III
     menu:
       main:
       - name: Profil
