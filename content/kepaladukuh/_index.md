@@ -7,7 +7,7 @@ description:
 ---
 ## Profil Kepala Dukuh
 
-![](/images/group-48.png)
+![](/images/profil-kepala-dukuh.png)
 
 * **Profil Kepala Dukuh**
 
