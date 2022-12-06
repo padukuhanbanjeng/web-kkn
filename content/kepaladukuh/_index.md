@@ -1,11 +1,10 @@
 ---
-title: Muhammad Sukri
-bg_image: images/backgrounds/page-title.jpg
+title: Profil Kepala Dukuh
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud.
-image: images/staff/pakrt.jpeg
-course: Ketua RT
+image: images/Profil-Kepala-Dukuh.png
+course: Musthofa Ahmad Alhusaini, S. Pd. I
 bio: Bio
 interest: []
 contact: []
