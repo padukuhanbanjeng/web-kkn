@@ -1,6 +1,5 @@
 ---
 title: Demografi
-bg_image: images/demografi/about-us.jpg
 image: 
 description: 
 dusun_banjeng:

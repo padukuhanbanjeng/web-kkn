@@ -1,6 +1,5 @@
 ---
 title: UMKM
-bg_image: images/umkm/about-us.jpg
 image: 
 description: 
 

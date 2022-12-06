@@ -1,6 +1,5 @@
 ---
 title: Taman WMB Banjeng
-bg_image: images/taman/about-us.jpg
 image: 
 description: 
 

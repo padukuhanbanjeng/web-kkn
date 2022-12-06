@@ -1,6 +1,5 @@
 ---
 date: 2022-11-29T17:42:37.000+07:00
-bg_image: "/images/img_7853.jpg"
 author: Admin
 type: post
 image: "/images/img_7853.jpg"

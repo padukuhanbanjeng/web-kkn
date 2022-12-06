@@ -1,6 +1,5 @@
 ---
 title: Posyandu
-bg_image: images/posyandu/about-us.jpg
 image: 
 description: 
 

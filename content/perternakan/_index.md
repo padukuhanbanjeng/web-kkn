@@ -1,6 +1,5 @@
 ---
 title: Perternakan Sapi dan Kambing
-bg_image: images/perternakan/about-us.jpg
 image: 
 description: 
 

@@ -1,6 +1,5 @@
 ---
 title: Kampung KB
-bg_image: images/kampungkb/about-us.jpg
 image: 
 description: 
 

@@ -1,6 +1,5 @@
 ---
 title: Perikanan Mina Mulya Tempelsari
-bg_image: images/perikanan/about-us.jpg
 image: 
 description: 
 
