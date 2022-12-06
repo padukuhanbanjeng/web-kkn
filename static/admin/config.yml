@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Judul Blog", name: "title", widget: "string", default: "Judul Artikel"}
       - {label: "Tanggal", name: "date", widget: "datetime"}
-      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Penulis", name: "author", widget: "string", default: "John Doe"}
       - {label: "Kategori", name: "kategori", widget: "string"}
       - {label: "Topik", name: "topik", widget: "list"}
