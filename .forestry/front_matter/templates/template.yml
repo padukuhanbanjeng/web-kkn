@@ -1,6 +1,6 @@
 ---
 label: Template Blog
-hide_body: true
+hide_body: false
 display_field: title
 fields:
 - type: text
@@ -30,7 +30,7 @@ fields:
   default: post
   hidden: true
   config:
-    required: false
+    required: true
 - type: file
   name: image
   label: Thumbnail
