@@ -10,12 +10,6 @@ fields:
   name: date
   label: Tanggal Rilis
   default: now
-- type: file
-  name: bg_image
-  label: Gambar Latar Belakang
-  config:
-    maxSize: 
-  default: "/banner/banner-samarinda-river.jpg"
 - type: text
   name: author
   label: Penulis
